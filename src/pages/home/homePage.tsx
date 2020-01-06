@@ -1,5 +1,6 @@
 import React, { FC } from 'react';
 import Slider from 'react-slick';
+import {Link} from 'react-router-dom';
 
 
 const sliderSettings = {
@@ -19,8 +20,14 @@ const sliderSettings = {
 const HomePage: FC = () => (
 	<div>
 		<Slider {...sliderSettings}>
-			<div><h3>Products</h3></div>
-			<div><h3>Newsletter</h3></div>
+			<div>
+				<h3>Products</h3>
+				<Link to={"/products"}>Order Now</Link>
+			</div>
+
+			<div>
+				<h3>Newsletter</h3>
+			</div>
 		</Slider>
 	</div>
 );
