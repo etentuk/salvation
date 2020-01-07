@@ -5,6 +5,7 @@ import AboutPage from './pages/about/aboutPage';
 import ContactPage from './pages/contact/contactPage';
 import ProductsPage from './pages/products/productsPage';
 import Header from './components/header/header';
+import Footer from './components/footer/footer';
 
 const App: React.FC = () => {
   return(
@@ -17,6 +18,7 @@ const App: React.FC = () => {
           <Route path="/about" component={AboutPage} />
           <Route exact path='/' component={HomePage} />
         </Switch>
+        <Footer/>
       </div>
     </Router>
   );
