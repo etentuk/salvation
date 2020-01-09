@@ -2,7 +2,7 @@ import React, { FC } from 'react';
 import { withRouter } from 'react-router-dom';
 import NavLink from '../navLink/navLink';
 
-const routes = ['Home', 'Products', 'About', 'Contact'];
+const routes = ['Home', 'Products', 'About', 'Contact', 'Admin', 'Login'];
 
 const Header: FC<any> = () => {
 	return(
