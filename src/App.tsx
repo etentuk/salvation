@@ -15,7 +15,7 @@ const App: React.FC = () => {
       <div>
         <Header/>
         <Switch>
-          <Route path="/products" comonent={ProductsPage} />
+          <Route path="/products" component={ProductsPage} />
           <Route path="/contact" component={ContactPage} />
           <Route path="/about" component={AboutPage} />
           <Route path="/admin" component={Admin} />

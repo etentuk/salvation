@@ -1,4 +1,4 @@
-import React, {FC, useEffect, useState} from 'react';
+import React, {FC, useEffect, useState, Fragment} from 'react';
 
 
 const ProductsPage: FC = () => {
@@ -12,12 +12,12 @@ const ProductsPage: FC = () => {
 	return (
 		<div>
 			<h2>Products</h2>
-			{cakes.map((cake: any)=>(
-				<>
+			{cakes.map((cake: any, index)=>(
+				<Fragment key={index.toString()}>
 				<p>flavor :{cake.flavour}</p>
 				<p>size: {cake.size}</p>
 				<p>color: {cake.color}</p>
-				</>
+				</Fragment>
 			))}
 		</div>
 	);

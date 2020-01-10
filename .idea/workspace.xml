@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b68b0623-dcb5-42e4-8bfe-555a60bcf566" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/protectedRoute.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/admin/admin.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/login/login.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/products/productsPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/products/productsPage.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +21,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="development" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -96,7 +90,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578311245632</updated>
-      <workItem from="1578311247862" duration="32486000" />
+      <workItem from="1578311247862" duration="35606000" />
     </task>
     <task id="LOCAL-00001" summary="Added Navbar">
       <created>1578338032810</created>
@@ -119,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578438611028</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="login, admin and products added.">
+      <created>1578560093832</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1578560093832</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,7 +130,8 @@
     <MESSAGE value="Added Navbar" />
     <MESSAGE value="Order now button" />
     <MESSAGE value="Finished skeleton home page, added footer." />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished skeleton home page, added footer." />
+    <MESSAGE value="login, admin and products added." />
+    <option name="LAST_COMMIT_MESSAGE" value="login, admin and products added." />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578531187596">
@@ -140,10 +142,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="460" y="295" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1440.900@0.0.1440.900" timestamp="1578531209010" />
-    <state x="301" y="0" key="CommitChangelistDialog2" timestamp="1578343013972">
+    <state x="301" y="0" key="CommitChangelistDialog2" timestamp="1578560093556">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="301" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1578343013972" />
+    <state x="301" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1578560093556" />
     <state x="144" y="79" key="DiffContextDialog" timestamp="1578342654121">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -152,17 +154,17 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="583" y="351" key="Github.ShareDialog/0.0.1440.900@0.0.1440.900" timestamp="1578438836437" />
-    <state x="320" y="186" key="Vcs.Push.Dialog.v2" timestamp="1578344479254">
+    <state x="320" y="186" key="Vcs.Push.Dialog.v2" timestamp="1578560103971">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="186" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1578344479254" />
+    <state x="320" y="186" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1578560103971" />
     <state x="502" y="369" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578338021585">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="502" y="369" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1578338021585" />
-    <state x="385" y="210" key="run.anything.popup" timestamp="1578342864319">
+    <state x="385" y="210" key="run.anything.popup" timestamp="1578565634892">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="210" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1578342864319" />
+    <state x="385" y="210" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1578565634892" />
   </component>
 </project>
