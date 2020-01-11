@@ -2,13 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b68b0623-dcb5-42e4-8bfe-555a60bcf566" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/footer/footer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/cake.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/footer/footer.styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/header.styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/about/aboutPage.styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/logo512.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navLink/navLink.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navLink/navLink.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/about/aboutPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about/aboutPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/contact/contactPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contact/contactPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/homePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/homePage.tsx" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript JSX File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -42,18 +50,35 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/navLink" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Images" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Images" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Images" />
       <recent name="$PROJECT_DIR$/src/components/navLink" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -70,18 +95,6 @@
       <method v="2" />
     </configuration>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -93,6 +106,7 @@
       <option name="presentableId" value="Default" />
       <updated>1578311245632</updated>
       <workItem from="1578311247862" duration="19351000" />
+      <workItem from="1578439247524" duration="17379000" />
     </task>
     <task id="LOCAL-00001" summary="Added Navbar">
       <created>1578338032810</created>
@@ -114,35 +128,34 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Navbar" />
     <MESSAGE value="Order now button" />
     <option name="LAST_COMMIT_MESSAGE" value="Order now button" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="301" y="0" key="CommitChangelistDialog2" timestamp="1578343013972">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="301" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1578343013972" />
-    <state x="144" y="79" key="DiffContextDialog" timestamp="1578342654121">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="144" y="79" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1578342654121" />
-    <state x="583" y="351" key="Github.ShareDialog" timestamp="1578334644516">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="583" y="351" key="Github.ShareDialog/0.0.1440.900@0.0.1440.900" timestamp="1578334644516" />
-    <state x="320" y="186" key="Vcs.Push.Dialog.v2" timestamp="1578344479254">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="320" y="186" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1578344479254" />
-    <state x="502" y="369" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578338021585">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="502" y="369" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1578338021585" />
-    <state x="385" y="210" key="run.anything.popup" timestamp="1578342864319">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="385" y="210" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1578342864319" />
+    <state x="301" y="0" key="CommitChangelistDialog2" />
+    <state x="301" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" />
+    <state x="144" y="79" key="DiffContextDialog" />
+    <state x="144" y="79" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" />
+    <state x="583" y="351" key="Github.ShareDialog" />
+    <state x="583" y="351" key="Github.ShareDialog/0.0.1440.900@0.0.1440.900" />
+    <state x="320" y="186" key="Vcs.Push.Dialog.v2" />
+    <state x="320" y="186" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" />
+    <state x="502" y="369" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" />
+    <state x="502" y="369" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" />
+    <state x="385" y="210" key="run.anything.popup" />
+    <state x="385" y="210" key="run.anything.popup/0.0.1440.900@0.0.1440.900" />
   </component>
 </project>

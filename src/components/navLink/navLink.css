@@ -6,6 +6,10 @@
   font-size: 14px;
   font-weight: bold;
   transition: all 0.25s ease-in-out;
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
 }
 
 .navLinkActiveClass {

@@ -1,0 +1,79 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.imageText p {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.imageText {
+	/*background-image: url("https://image.shutterstock.com/image-photo/birthday-cake-candles-bright-lights-260nw-418556503.jpg");*/
+	height: 60vh;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: green;
+}
+
+.imageText h1{
+	font-size: 75px;
+	font-weight: bold;
+	font-family: "Comic Sans MS";
+	color: #ffd79a;
+}
+
+.imageText h2{
+	font-size: 55px;
+	font-weight: bold;
+	font-family: "Comic Sans MS";
+	color: white;
+}
+
+.websiteDescription {
+	height: 45vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.textAndImage {
+	height: 70%;
+	width: 80%;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.websiteFounderImage {
+	height: 50%;
+	width: 20%;
+}
+
+.websiteFounderImage img{
+	height: 100%;
+	width: 70%;
+	/*padding-left: 60px;*/
+	/*padding-right: 10px;*/
+}
+
+.founderDescription {
+	height: 100%;
+	width: 70%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.founderDescription p{
+	line-height: 24px;
+	color: green;
+}

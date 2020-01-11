@@ -1,0 +1,23 @@
+.navBarContainer {
+	height: 8vh;
+	width: 100%;
+	background-color: orange;
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	color: black;
+	-webkit-transition: 0.5s ease;
+}
+
+.logo {
+	height: 100%;
+	width: 10%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.logo img {
+	height: 50%;
+	width: 50%;
+}

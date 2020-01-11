@@ -1,13 +1,39 @@
 import React, { FC } from 'react';
-
+import './aboutPage.styles.css';
+import img from '/Users/admin/Desktop/salvation updated/src/Images/cake.jpg';
 
 const AboutPage: FC = () => (
-	<div>
-		<h2>About</h2>
-		<h3>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-		</h3>
-	</div>
+	<>
+		<div className={'imageText'}>
+			<h1>Hello</h1>
+			<h2>About</h2>
+		</div>
+		<div className={'websiteDescription'}>
+			<div className={'textAndImage'}>
+				<div className={'websiteFounderImage'}>
+					<img src={img} alt={'ownerImage'}/>
+				</div>
+				<div className={'founderDescription'}>
+				<p>
+					Lemon Tree Cookies is the brain child of dynamic mother-daughter duo, Liz Maci and Abby Reckard.
+				</p>
+				<p>
+					Lemon Tree Cookies is the brain child of dynamic mother-daughter duo, Liz Maci and Abby Reckard.
+						Lemon Tree Cookies is the brain child of dynamic mother-daughter duo, Liz Maci and Abby Reckard.
+					</p>
+				<p>
+					Lemon Tree Cookies is the brain child of dynamic mother-daughter duo, Liz Maci and Abby Reckard.
+					Lemon Tree Cookies is the brain child of dynamic mother-daughter duo, Liz Maci and Abby Reckard.
+				</p>
+				<p>
+					Lemon Tree Cookies is the brain child of dynamic mother-daughter duo, Liz Maci and Abby Reckard.
+					Lemon Tree Cookies is the brain child of dynamic mother-daughter duo, Liz Maci and Abby Reckard.
+				</p>
+				</div>
+
+			</div>
+		</div>
+</>
 );
 
 export default AboutPage;
