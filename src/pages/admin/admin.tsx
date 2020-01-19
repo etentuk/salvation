@@ -10,7 +10,6 @@ const Admin: FC = () => {
 	};
 
 	return (
-
 		<div>
 			<h2>Admin</h2>
 			<form onSubmit={handleSubmit(onSubmit)}>

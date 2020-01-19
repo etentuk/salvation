@@ -11,12 +11,11 @@ interface ProtectedRouteProps {
 const ProtectedRoute: FC<ProtectedRouteProps> = ({ component: Component, condition, path, redirectRoute, ...rest }): any => (
 	<Route
 		{...rest}
-		path={`/${path}`}
-		render={(props): any => {
+		render={(props) => {
 			if (condition) {
-				return <Component {...props} />;
+				return <Component {...props} />
 			}
-			return <Redirect to={`/${redirectRoute}`} />;
+			return <Redirect to={redirectRoute} />;
 		}}
 	/>
 );
