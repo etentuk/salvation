@@ -1,0 +1,54 @@
+.navBarContainer {
+	height: 8vh;
+	width: 100%;
+	background-color: orange;
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	color: black;
+	-webkit-transition: 0.5s ease;
+	justify-content: space-around;
+}
+
+.logo {
+	height: 100%;
+	width: 10%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.logo img {
+	height: 50%;
+	width: 50%;
+}
+
+.routes {
+	display: flex;
+	align-items: center;
+}
+
+/*.routes a{*/
+/*	display: flex;*/
+/*	color: black;*/
+/*	padding-left: 10px;*/
+/*}*/
+
+.routes a:Hover{
+	color: #ffd79a;
+}
+
+.socials {
+	color: rebeccapurple;
+	display: flex;
+	align-items: center;
+}
+
+.socials a{
+	color: aquamarine;
+	padding-left: 25px;
+}
+
+.socials a:Hover {
+	color: rebeccapurple;
+}

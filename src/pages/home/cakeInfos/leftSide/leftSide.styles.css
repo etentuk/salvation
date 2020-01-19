@@ -1,0 +1,36 @@
+.cakeDescription {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.cakeDescription h1{
+	font-family: Dancing Script, cursive;
+	font-weight: 400;
+	font-size: 100px;
+	color: #f4e000;
+}
+
+.cakeDescription h2{
+	font-family: Alice;
+	font-size: 2.9375rem;
+}
+
+.cakeDescription span{
+	margin: 24px 0;
+	font-size: 37px;
+	font-family: Serif;
+}
+
+.cakeDescription p{
+	padding: 20px;
+}
+
+.cakeDescription link{
+	text-decoration: none;
+	color: white;
+}
+

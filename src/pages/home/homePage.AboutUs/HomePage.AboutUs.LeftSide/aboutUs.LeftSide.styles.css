@@ -1,0 +1,35 @@
+.AboutUs {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.AboutUs h1{
+	font-family: Dancing Script, cursive;
+	font-weight: 400;
+	font-size: 100px;
+	color: #f4e000;
+}
+
+.AboutUs h2{
+	font-family: Alice;
+	font-size: 2.9375rem;
+}
+
+.AboutUs span{
+	margin: 24px 0;
+	font-size: 37px;
+	font-family: Serif;
+}
+
+.AboutUs p{
+	padding: 20px;
+}
+
+.AboutUs link{
+	text-decoration: none;
+	color: white;
+}

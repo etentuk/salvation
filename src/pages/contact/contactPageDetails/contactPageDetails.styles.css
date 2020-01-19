@@ -1,0 +1,26 @@
+.contactPageContent {
+	height: 130vh;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.contentBox {
+	height: 80%;
+	width: 85%;
+	background-color: white;
+	display: flex;
+	flex-direction: row;
+}
+
+.leftHalfContent {
+	height: 100%;
+	width: 50%;
+}
+
+.rightHalfContent {
+	height: 100%;
+	width: 50%;
+	margin-left: 10px;
+}

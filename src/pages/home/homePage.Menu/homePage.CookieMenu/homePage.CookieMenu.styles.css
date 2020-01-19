@@ -1,0 +1,35 @@
+.cookieMenu {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.cookieMenu h1{
+	font-family: Dancing Script, cursive;
+	font-weight: 400;
+	font-size: 100px;
+	color: #f4e000;
+}
+
+.cookieMenu h2{
+	font-family: Alice;
+	font-size: 2.9375rem;
+}
+
+.cookieMenu span{
+	margin: 24px 0;
+	font-size: 37px;
+	font-family: Serif;
+}
+
+.cookieMenu p{
+	padding: 20px;
+}
+
+.cookieMenu link{
+	text-decoration: none;
+	color: white;
+}

@@ -1,4 +1,5 @@
 import React, {FC, useEffect, useState, Fragment} from 'react';
+import './productsPage.styles.css';
 
 
 const ProductsPage: FC = () => {

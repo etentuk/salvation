@@ -1,0 +1,24 @@
+.homePageAboutUs {
+	height: 50vh;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.aboutUs {
+	height: 85%;
+	width: 80%;
+	display: flex;
+	flex-direction: row;
+}
+
+.aboutUsRightSide {
+	height: 100%;
+	width: 50%;
+}
+
+.aboutUsLeftSide {
+	height: 100%;
+	width: 50%;
+}

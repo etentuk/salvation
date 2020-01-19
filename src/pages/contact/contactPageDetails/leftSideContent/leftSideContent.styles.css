@@ -1,0 +1,45 @@
+/*.leftSideContentContainer {*/
+/*	justify-content: right;*/
+/*}*/
+
+.leftSideContent {
+	height: 100%;
+	width: 90%;
+	display: flex;
+	align-items: self-start;
+	color: black;
+	flex-direction: column;
+	margin-left: 80px;
+}
+
+.leftSideContent h1{
+	padding: 40px 0px;
+	font-family: Alice, cursive;
+	font-weight: 400;
+}
+
+.leftSideContent p{
+	line-height: 30px;
+}
+
+#submitInquiries {
+	padding-top: 30px;
+	font-weight: bold;
+}
+
+.socialsContactPage {
+	color: rebeccapurple;
+	display: flex;
+	align-items: center;
+}
+
+.socialsContactPage a{
+	color: rebeccapurple;
+	padding: 5px 5px;
+}
+
+.socialsContactPage a:Hover {
+	color: red;
+}
+
+

@@ -1,0 +1,27 @@
+.contactPictureText {
+	/*background-image: url("https://image.shutterstock.com/image-photo/birthday-cake-candles-bright-lights-260nw-418556503.jpg");*/
+	height: 50vh;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: green;
+}
+
+.contactPictureText h1{
+	font-size: 75px;
+	font-weight: bold;
+	font-family: 'indie family', cursive;
+	color: #ffd79a;
+}
+
+.contactPictureText h2{
+	font-size: 55px;
+	font-weight: bold;
+	font-family: "Comic Sans MS", cursive;
+	color: white;
+}
+

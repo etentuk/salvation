@@ -1,0 +1,24 @@
+.homePageMenu {
+	height: 50vh;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.cakeInfos {
+	height: 85%;
+	width: 80%;
+	display: flex;
+	flex-direction: row;
+}
+
+.leftSideCookieMenu {
+	height: 100%;
+	width: 50%;
+}
+
+.rightSideCookieMenu {
+	height: 100%;
+	width: 50%;
+}

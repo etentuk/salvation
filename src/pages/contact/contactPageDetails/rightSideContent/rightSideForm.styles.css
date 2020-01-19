@@ -1,0 +1,51 @@
+label {
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+input {
+	margin-top: 20px;
+	margin-left: 5px;
+	height: 30px;
+	border-radius: 10px;
+	border-color: red;
+	padding-left: 10px;
+}
+
+input:Hover{
+	border-color: rebeccapurple;
+	cursor: pointer;
+}
+
+.orderForm {
+	padding-left: 50px;
+}
+
+.rightSideDetails {
+	height: 100%;
+	width: 90%;
+	display: flex;
+	align-items: self-start;
+	color: black;
+	flex-direction: column;
+}
+
+#boldWord {
+	font-weight: bold;
+}
+
+.rightSideDetails h1{
+	padding: 40px 0px;
+	font-family: Alice, cursive;
+	font-weight: 400;
+}
+
+.rightSideDetails p{
+	line-height: 30px;
+}
+
+.orderForm form{
+	display: flex;
+	flex-direction: column;
+}
+

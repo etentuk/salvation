@@ -1,0 +1,24 @@
+.cakeInfosContainer {
+	height: 50vh;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.cakeInfos {
+	height: 85%;
+	width: 80%;
+	display: flex;
+	flex-direction: row;
+}
+
+.rightSide {
+	height: 100%;
+	width: 50%;
+}
+
+.leftSide {
+	height: 100%;
+	width: 50%;
+}
