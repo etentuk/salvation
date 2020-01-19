@@ -1,5 +1,6 @@
-import React, { FC, useState, useEffect } from 'react';
+import React, {FC, useState, useEffect, useContext} from 'react';
 import { withRouter } from 'react-router-dom';
+import {Context} from '../../App';
 
 
 interface LoginProps {
@@ -7,6 +8,7 @@ interface LoginProps {
 }
 
 const Login: FC<LoginProps> = ({ history }) => {
+	const context = useContext(Context);
 	const [username, setUsername] = useState('');
 	const [password, setPassword] = useState('');
 	const [invalid, setInvalid] = useState(false);
@@ -16,6 +18,7 @@ const Login: FC<LoginProps> = ({ history }) => {
 			setInvalid(false);
 			localStorage.setItem('admin', 'Solomon');
 			const admin = localStorage.getItem('admin');
+			context.setAdmin(admin);
 			history.push('/admin');
 		} else {
 			setInvalid(true);
@@ -64,7 +67,7 @@ const Login: FC<LoginProps> = ({ history }) => {
 					onChange={onChangePassword}
 					required
 				/>
-				<button title="let's go" onClick={validateLogin} />
+				<button title="let's go" onClick={validateLogin}>Login</button>
 			</form>
 		</div>
 	);

@@ -10,7 +10,7 @@ import {
 	faInstagram
 } from '@fortawesome/free-brands-svg-icons';
 
-const routes = ['Home', 'Products', 'About', 'Contact', 'Admin', 'Login'];
+const routes = ['Home', 'Products', 'About', 'Contact', 'Admin', 'Login', 'Cart', 'Checkout'];
 
 const Header: FC<any> = () => {
 	return(
