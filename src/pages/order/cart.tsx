@@ -1,5 +1,6 @@
 import React, {FC, Fragment, useContext} from 'react';
 import {Cake, Context} from '../../App';
+import {Link} from 'react-router-dom';
 
 const CartPage: FC = () => {
 
@@ -15,7 +16,8 @@ const CartPage: FC = () => {
 	        </Fragment>
 			))
 			}
-			<button>Payment</button>
+			<Link to={'/payment'}>Pay</Link>
+
 		</>
 	)
 };

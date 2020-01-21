@@ -12,10 +12,7 @@ const ProtectedRoute: FC<ProtectedRouteProps> = ({ component: Component, conditi
 	<Route
 		{...rest}
 		render={(props) => {
-			if (condition) {
-				return <Component {...props} />
-			}
-			return <Redirect to={redirectRoute} />;
+			return condition ?  <Component {...props} /> : <Redirect to={redirectRoute} />;
 		}}
 	/>
 );
