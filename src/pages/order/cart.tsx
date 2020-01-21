@@ -6,7 +6,6 @@ const CartPage: FC = () => {
 
 	const context = useContext(Context);
 
-
 	return (
 		<>
 			{context.state?.currentOrders?.map((cake: Cake, index:number)=>(
