@@ -1,73 +1,42 @@
-import React, { FC, useState, useEffect } from 'react';
+import React, {FC, useState, useContext} from 'react';
 import { withRouter } from 'react-router-dom';
+import {Context, ContextProps} from '../../App';
+import { useForm } from 'react-hook-form';
+import {Alert} from 'antd';
 
 
 interface LoginProps {
 	history: any;
 }
 
-const Login: FC<LoginProps> = ({ history }) => {
-	const [username, setUsername] = useState('');
-	const [password, setPassword] = useState('');
+const LoginPage: FC<LoginProps> = ({ history }) => {
+	const { register, handleSubmit } = useForm();
+	const context = useContext<ContextProps>(Context);
 	const [invalid, setInvalid] = useState(false);
 
-	const validateLogin = (): void => {
-		if (username === 'solomon' && password === 'solomon') {
+	const validateLogin = (data: {username?: string, password?: string}) => {
+		if (data.username === 'solomon' && data.password === 'solomon') {
 			setInvalid(false);
-			localStorage.setItem('admin', 'Solomon');
-			const admin = localStorage.getItem('admin');
+			localStorage.setItem('admin', data.username);
+			context?.setAdmin(data.username);
 			history.push('/admin');
 		} else {
 			setInvalid(true);
 		}
 	};
 
-	const downHandler = ({ key }: { key: any }): void => {
-		if (key === 'Enter') {
-			validateLogin();
-		}
-	};
-
-	useEffect(() => {
-		window.addEventListener('keydown', downHandler);
-		return (): void => {
-			window.removeEventListener('keydown', downHandler);
-		};
-	}, [username, password]);
-
-	const onChangeUsername = (event: any): void => {
-		setInvalid(false);
-		setUsername(event.target.value);
-	};
-
-	const onChangePassword = (event: any): void => {
-		setInvalid(false);
-		setPassword(event.target.value);
-	};
-
 	return (
 		<div className="loginContainer center">
 			<h1>LOGIN</h1>
-			<form className="center">
-				<input
-					style={{ width: 400 }}
-					placeholder="username"
-					name="name"
-					onChange={onChangeUsername}
-					required
-				/>
-				<input
-					type="password"
-					style={{ width: 400 }}
-					placeholder="password"
-					name="password"
-					onChange={onChangePassword}
-					required
-				/>
-				<button title="let's go" onClick={validateLogin} />
+			<form onSubmit={handleSubmit(validateLogin)}>
+				<input name="username" ref={register}  />
+				<input name="password" ref={register} type={"password"}  />
+				<input type="submit" />
 			</form>
+			{invalid && <Alert style={{ marginBottom: 40 }} message="Looks like your credentials are not correct" type="error" />}
+
 		</div>
 	);
 };
 
-export default withRouter(Login);
+export default withRouter(LoginPage);
