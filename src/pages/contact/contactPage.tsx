@@ -3,7 +3,6 @@ import img from '../../Images/cake.jpg';
 import './contactPage.styles.css';
 import ContactPageDetails from './contactPageDetails/contactPageDetails';
 
-
 const ContactPage: FC = () => (
 	<>
 		<div className={'contactPictureText'}>

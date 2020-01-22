@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b68b0623-dcb5-42e4-8bfe-555a60bcf566" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/order/cart.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/order/checkOut.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/order/payment.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/protectedRoute.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/protectedRoute.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/admin/admin.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/admin/admin.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/login/login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/login/login.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/products/productsPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/products/productsPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/contact/contactPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contact/contactPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/order/cart.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/order/cart.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,10 +16,16 @@
       <list>
         <option value="CSS File" />
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Etentuk &lt;etentuke@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="aboutPage" />
@@ -49,7 +46,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -106,7 +103,9 @@
       <updated>1578311245632</updated>
       <workItem from="1578311247862" duration="19351000" />
       <workItem from="1578439247524" duration="17379000" />
-      <workItem from="1579345598441" duration="9681000" />
+      <workItem from="1579345598441" duration="10185000" />
+      <workItem from="1579441370550" duration="20368000" />
+      <workItem from="1579524264149" duration="11767000" />
     </task>
     <task id="LOCAL-00001" summary="Added Navbar">
       <created>1578338032810</created>
@@ -122,7 +121,21 @@
       <option name="project" value="LOCAL" />
       <updated>1578342605275</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added payment form, cart functionalities.">
+      <created>1579438185377</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1579438185378</updated>
+    </task>
+    <task id="LOCAL-00004" summary="products now display in admin, payment form works. changed forms to react hooks forms. Implemented complete payment functions.">
+      <created>1579570590073</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1579570590073</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,15 +157,19 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Navbar" />
     <MESSAGE value="Order now button" />
-    <option name="LAST_COMMIT_MESSAGE" value="Order now button" />
+    <MESSAGE value="Added payment form, cart functionalities." />
+    <MESSAGE value="products now display in admin, payment form works. changed forms to react hooks forms. Implemented complete payment functions." />
+    <option name="LAST_COMMIT_MESSAGE" value="products now display in admin, payment form works. changed forms to react hooks forms. Implemented complete payment functions." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="301" y="0" key="CommitChangelistDialog2" timestamp="1578766895529" />
-    <state x="301" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1578766895529" />
-    <state x="144" y="79" width="1152" height="720" key="DiffContextDialog" timestamp="1578775407317">
+    <state x="301" y="0" key="CommitChangelistDialog2" timestamp="1579570589676">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="144" y="79" width="1152" height="720" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1578775407317" />
+    <state x="301" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1579570589676" />
+    <state x="144" y="79" width="1152" height="720" key="DiffContextDialog" timestamp="1579438150837">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="144" y="79" width="1152" height="720" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1579438150837" />
     <state x="583" y="351" key="Github.ShareDialog" timestamp="1578766895529" />
     <state x="583" y="351" key="Github.ShareDialog/0.0.1440.900@0.0.1440.900" timestamp="1578766895529" />
     <state width="1419" height="226" key="GridCell.Tab.0.bottom" timestamp="1579215594017">
@@ -175,8 +192,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="427" y="164" key="MultipleFileMergeDialog/0.0.1440.900@0.0.1440.900" timestamp="1578767075164" />
-    <state x="320" y="186" key="Vcs.Push.Dialog.v2" timestamp="1578766895529" />
-    <state x="320" y="186" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1578766895529" />
+    <state x="320" y="186" key="Vcs.Push.Dialog.v2" timestamp="1579570677111">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="186" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1579570677111" />
     <state x="502" y="369" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578766895529" />
     <state x="502" y="369" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1578766895529" />
     <state x="368" y="61" width="703" height="777" key="find.popup" timestamp="1579033531404">
