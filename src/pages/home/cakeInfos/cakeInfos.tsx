@@ -3,7 +3,6 @@ import './cakeInfos.styles.css';
 import RightSideCakeInfo from './rightside/rightSide';
 import LeftSideCakeInfo from './leftSide/leftSide';
 
-
 const CakeInfos: FC = () => (
   <div className={'cakeInfosContainer'}>
     <div className={'cakeInfos'}>

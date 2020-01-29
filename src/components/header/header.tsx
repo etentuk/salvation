@@ -25,11 +25,11 @@ const Header: FC<any> = () => {
 			))}
 			<div className={'socials'}>
 				<Link to={"/cart"}><FontAwesomeIcon icon={faShoppingCart} /></Link>
-				<a href={"https://www.facebook.com/duke.etentuk" } target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faFacebook}/></a>
+				<a href={"https://www.facebook.com/tarts.byavi/" } target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faFacebook}/></a>
 				<p> </p>
-				<a href={"https://twitter.com/etentukee" } target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faTwitter}/></a>
+				<a href={"https://twitter.com/mama_avex" } target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faTwitter}/></a>
 				<p> </p>
-				<a href={"https://www.instagram.com/etentuk/" } target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faInstagram}/></a>
+				<a href={"https://www.instagram.com/tarts_by_avi/" } target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faInstagram}/></a>
 			</div>
 			</div>
 		</div>

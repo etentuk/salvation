@@ -4,8 +4,9 @@
   letter-spacing: .1em;
   cursor: pointer;
   font-size: 14px;
-  font-weight: bold;
-  transition: all 0.25s ease-in-out;
+  font-weight: 700;
+  transition: all 0.15s ease-in-out;
+  color: black;
 }
 
 .navLinkActiveClass {

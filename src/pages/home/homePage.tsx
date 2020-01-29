@@ -9,9 +9,9 @@ import HomePageAboutUs from './homePage.AboutUs/homePage.AboutUs';
 const HomePage: FC = () => (
 	<div className={'homePageContainer'}>
 		<div className={'homePageImageText'}>
-			<h1>Welcome</h1>
-			<h2>Website Name</h2>
-			<h3>Quote</h3>
+			{/*<h1>Welcome</h1>*/}
+			{/*<h2>Website Name</h2>*/}
+			{/*<h3>Quote</h3>*/}
 		</div>
 			<CakeInfos />
 			<HomeMadeSweets />

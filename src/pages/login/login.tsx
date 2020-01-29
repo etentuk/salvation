@@ -16,7 +16,7 @@ const LoginPage: FC<LoginProps> = ({ history }) => {
 	const [invalid, setInvalid] = useState(false);
 
 	const validateLogin = (data: {username?: string, password?: string}) => {
-		if (data.username === 'solomon' && data.password === 'solomon') {
+		if (data.username === 'avese' && data.password === 'avese') {
 			setInvalid(false);
 			localStorage.setItem('admin', data.username);
 			context?.setAdmin(data.username);
