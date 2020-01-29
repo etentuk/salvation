@@ -1,0 +1,48 @@
+.adminPageContainer {
+	margin: 20px;
+}
+
+.adminPageContainer input {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 8px;
+	margin: 10px;
+	border-radius: 8px;
+	border-color: #6F5F90;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.adminPageContainer input:Hover {
+	border-radius: 4px;
+	border-width: 2px;
+}
+
+#adminSubmitButton:Hover {
+	border-color: #E8E0DE;
+	background-color: #E8E0DE;
+	transition: 0.2s;
+}
+
+.adminPageContainer h2{
+	font-size: 55px;
+	margin: 10px;
+}
+
+.adminPageContainer p{
+	font-size: larger;
+	margin: 10px;
+	background-color: #E8E0DE;
+}
+
+.adminPageContainer button{
+	margin-left: 10px;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.adminPageContainer button:Hover {
+	background-color: #404040;
+	color: #E8E0DE;
+}

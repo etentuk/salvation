@@ -1,5 +1,4 @@
 import React, { FC } from 'react';
-import img from '../../Images/cake.jpg';
 import './contactPage.styles.css';
 import ContactPageDetails from './contactPageDetails/contactPageDetails';
 

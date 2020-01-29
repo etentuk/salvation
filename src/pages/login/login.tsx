@@ -3,6 +3,7 @@ import { withRouter } from 'react-router-dom';
 import {Context, ContextProps} from '../../App';
 import { useForm } from 'react-hook-form';
 import {Alert} from 'antd';
+import './login.styles.css';
 
 
 interface LoginProps {
@@ -28,10 +29,10 @@ const LoginPage: FC<LoginProps> = ({ history }) => {
 	return (
 		<div className="loginContainer center">
 			<h1>LOGIN</h1>
-			<form onSubmit={handleSubmit(validateLogin)}>
-				<input name="username" ref={register}  />
-				<input name="password" ref={register} type={"password"}  />
-				<input type="submit" />
+			<form onSubmit={handleSubmit(validateLogin)} className={'loginForm'}>
+				<input name="username" ref={register} placeholder="Username" />
+				<input name="password" ref={register} type={"password"} placeholder="Password" />
+				<input type="submit" id={'submitButton'}/>
 			</form>
 			{invalid && <Alert style={{ marginBottom: 40 }} message="Looks like your credentials are not correct" type="error" />}
 

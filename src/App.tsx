@@ -9,9 +9,9 @@ import Footer from './components/footer/footer';
 import AdminPage from './pages/admin/admin';
 import LoginPage from './pages/login/login';
 import ProtectedRoute from './components/protectedRoute';
-import CartPage from './pages/order/cart';
+import CartPage from './pages/cart/cart';
 import OrderSuccessPage from './pages/order/orderSuccess';
-import PaymentPage from './pages/order/payment';
+import PaymentPage from './pages/order/payment/payment';
 
 export type Cake = {
   flavour: string,
@@ -53,9 +53,11 @@ const App: FC = () => {
         onDelete: (index: number) => setState({...state, currentOrders: [ ...state.currentOrders.filter((order: Cake,indexOfOrder:number) => indexOfOrder !== index)]})
       }}
     >
+      <div style={{ flex: 1, display: 'flex', flexDirection: 'column', minHeight: '100vh'}}>
       <Router>
           <Header/>
-          <Switch>
+        <div style={{ flex: 1, flexDirection: 'column'}}>
+        <Switch>
             <Route path="/products" component={ProductsPage} />
             <Route path="/contact" component={ContactPage} />
             <Route path="/about" component={AboutPage} />
@@ -72,7 +74,7 @@ const App: FC = () => {
                   />
                   <ProtectedRoute
                     component={CartPage}
-                    condition={context.state?.currentOrders?.length}
+                    condition={true}
                     path="/cart"
                     redirectRoute="/products"
                   />
@@ -92,8 +94,10 @@ const App: FC = () => {
                 )}
             </Context.Consumer>
           </Switch>
+        </div>
           <Footer/>
       </Router>
+      </div>
     </Context.Provider>
   );
 };

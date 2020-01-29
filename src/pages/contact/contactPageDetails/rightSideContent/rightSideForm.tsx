@@ -16,12 +16,12 @@ const RightSideForm: FC = () => {
           <form>
             <label>
               Name<br/>
-              <input type="text" name="name" required placeholder="First Name" id={'contactPageForm'}/>
-              <input type="text" name="name" required placeholder="Last Name" id={'contactPageForm'}/>
+              <input type="text" name="name" required placeholder="First Name"/>
+              <input type="text" name="name" required placeholder="Last Name"/>
             </label>
             <label>
               EMAIL<br/>
-              <input type="text" name="Email" required placeholder="Email" id={'contactPageForm'}/>
+              <input type="text" name="Email" required placeholder="Email"/>
             </label>
             <label>
               <PhoneInput
@@ -31,7 +31,7 @@ const RightSideForm: FC = () => {
             </label>
             <label>
               Number Of Cookies<br/>
-              <input type="text" name="Number" required placeholder="Number of Cookies" id={'contactPageForm'}/>
+              <input type="text" name="Number" required placeholder="Number of Cookies"/>
             </label>
             <label>
               <DateInput />
@@ -43,7 +43,7 @@ const RightSideForm: FC = () => {
               {/*  onChange={handleChange}*/}
               {/*/>*/}
             </label>
-            <input type="submit" value="Submit Form" id={'contactPageForm'}/>
+            <input type="submit" value="Submit Form" className={'contactPageFormSubmit'}/>
           </form>
         </div>
       </div>

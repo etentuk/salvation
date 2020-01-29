@@ -1,8 +1,9 @@
 import React, {FC, useContext, useState} from 'react';
 import {Alert} from 'antd';
-import {Context, ContextProps} from '../../App';
+import {Context, ContextProps} from '../../../App';
 import { withRouter } from 'react-router-dom';
 import { useForm } from 'react-hook-form';
+import './payment.styles.css';
 
 interface PaymentPageProps {
 	history: any;
@@ -54,7 +55,7 @@ const PaymentPage: FC<PaymentPageProps> = ({history}) => {
 		}
 	};
 	return (
-		<div>
+		<div className={'paymentPageContainer'}>
 			<h1>Address</h1>
 			<form onSubmit={handleSubmit(pay)} style={{display: 'flex', width: '50%', flexDirection: 'column', justifyContent: 'center'}}>
 				<input placeholder="Name" name="name" ref={register} required />
@@ -66,7 +67,7 @@ const PaymentPage: FC<PaymentPageProps> = ({history}) => {
 				<input placeholder="Card number" name="cardNumber" ref={register} required/>
 				<input placeholder="Expiry date" name="expiryDate" ref={register} required/>
 				<input placeholder="CVC" name="cvc" ref={register} required/>
-				<input type="submit" />
+				<input type="submit"  id={'paymentSubmitButton'}/>
 			</form>
 			{ paymentError && <Alert style={{marginBottom: 40}} message="Please fill out the entire form" type="error"/>}
 		</div>

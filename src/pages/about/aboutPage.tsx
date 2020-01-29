@@ -1,17 +1,16 @@
 import React, { FC } from 'react';
 import './aboutPage.styles.css';
-import img from '/Users/admin/Desktop/salvation updated/src/Images/cake.jpg';
 
 const AboutPage: FC = () => (
 	<>
 		<div className={'aboutImageText'}>
-			<h1>Hello</h1>
-			<h2>About</h2>
+			<h1>About</h1>
+			<h2>Kun Avese</h2>
 		</div>
 		<div className={'websiteDescription'}>
 			<div className={'textAndImage'}>
 				<div className={'websiteFounderImage'}>
-					<img src={img} alt={'ownerImage'}/>
+					<img src='https://images.unsplash.com/flagged/photo-1552046930-4cffbe772cd4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60' alt={'Owner'}/>
 				</div>
 				<div className={'founderDescription'}>
 				<p>
@@ -34,7 +33,7 @@ const AboutPage: FC = () => (
 			</div>
 		</div>
 </>
-	
+
 );
 
 export default AboutPage;

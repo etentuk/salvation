@@ -1,14 +1,14 @@
 .contactPictureText {
-	/*background-image: url("https://image.shutterstock.com/image-photo/birthday-cake-candles-bright-lights-260nw-418556503.jpg");*/
+	background-image: url("https://images.unsplash.com/photo-1481286810468-bd491e70a15e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
 	height: 50vh;
 	width: 100%;
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	background-color: green;
 }
 
 .contactPictureText h1{
@@ -22,6 +22,6 @@
 	font-size: 55px;
 	font-weight: bold;
 	font-family: "Comic Sans MS", cursive;
-	color: white;
+	color: rebeccapurple;
 }
 

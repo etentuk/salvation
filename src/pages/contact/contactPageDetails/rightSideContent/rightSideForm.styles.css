@@ -3,16 +3,17 @@ label {
 	padding-top: 20px;
 }
 
-input {
+.orderForm input {
 	margin-top: 20px;
 	margin-left: 5px;
 	height: 30px;
 	border-radius: 10px;
 	border-color: red;
 	padding-left: 10px;
+	outline: none;
 }
 
-input:Hover{
+.orderForm input:Hover{
 	border-color: rebeccapurple;
 	cursor: pointer;
 }
@@ -49,3 +50,28 @@ input:Hover{
 	flex-direction: column;
 }
 
+.contactPageFormSubmit {
+	background: #E8E0DE;
+	color: black !important;
+	font-weight: 100;
+	text-transform: uppercase;
+	border-radius: 6px;
+	transition: all 0.3s ease 0s;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-color: red;
+	border-style: solid;
+	border-width: 2px;
+}
+
+.contactPageFormSubmit:Hover {
+	color: #404040 !important;
+	font-weight: 700 !important;
+	letter-spacing: 3px;
+	background: none;
+	-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	transition: all 0.3s ease 0s;
+	border-radius: 12px;
+}

@@ -1,6 +1,9 @@
 .footerContainer {
+	/*bottom: 0;*/
 	height: 40vh;
 	width: 100%;
+	flex: 0 1 40px;
+	/*position: fixed;*/
 }
 
 .mediaIcons {

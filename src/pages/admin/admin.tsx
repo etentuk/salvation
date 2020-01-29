@@ -1,7 +1,7 @@
 import React, {FC, Fragment, useEffect, useState} from 'react';
 import { useForm } from 'react-hook-form';
 import {Cake} from '../../App';
-
+import './admin.styles.css';
 
 const AdminPage: FC = () => {
 	const { register, handleSubmit } = useForm();
@@ -30,13 +30,13 @@ const AdminPage: FC = () => {
 	};
 
 	return (
-		<div>
+		<div className={'adminPageContainer'}>
 			<h2>Admin</h2>
 			<form onSubmit={handleSubmit(onSubmit)}>
-				<input name="flavour" ref={register} required />
-				<input name="size" ref={register} required />
-				<input name="color" ref={register} required />
-				<input type="submit" />
+				<input name="flavour" ref={register} placeholder="flavour" required />
+				<input name="size" ref={register} placeholder="size" required />
+				<input name="color" ref={register} placeholder="color" required />
+				<input type="submit" id={'adminSubmitButton'}/>
 			</form>
 
 			{cakes?.map((cake: Cake, index:number)=>(

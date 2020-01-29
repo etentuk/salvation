@@ -12,7 +12,8 @@
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	background-color: green;
+	background-image: url("https://images.unsplash.com/photo-1481286810468-bd491e70a15e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+	background-position: center;
 }
 
 .aboutImageText h1{
@@ -26,7 +27,7 @@
 	font-size: 55px;
 	font-weight: bold;
 	font-family: "Comic Sans MS", cursive;
-	color: white;
+	color: rebeccapurple;
 }
 
 .websiteDescription {
@@ -54,8 +55,6 @@
 .websiteFounderImage img{
 	height: 100%;
 	width: 70%;
-	/*padding-left: 60px;*/
-	/*padding-right: 10px;*/
 }
 
 .founderDescription {
@@ -68,5 +67,5 @@
 
 .founderDescription p{
 	line-height: 24px;
-	color: green;
+	color: black;
 }

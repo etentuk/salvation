@@ -1,0 +1,44 @@
+.paymentPageContainer {
+	margin: 10px;
+}
+
+.paymentPageContainer h1{
+	font-family: 'indie family', cursive;
+}
+
+.paymentPageContainer h2{
+	font-family: 'indie family', cursive;
+}
+
+.paymentPageContainer input{
+	padding: 10px;
+	margin: 10px;
+	border-radius: 10px;
+	border-style: solid;
+	border-width: 2px;
+	border-bottom-color: rebeccapurple;
+	outline: none;
+	border-top-style: hidden;
+	border-right-style: hidden;
+	border-left-style: hidden;
+	border-bottom-style: groove;
+}
+
+#paymentSubmitButton {
+	height: 40px;
+	width: 100px;
+	background-color: #E8E0DE;
+	border-bottom-color: #E8E0DE;
+	border-radius: 5px;
+	transition: 0.7s;
+
+}
+
+#paymentSubmitButton:Hover {
+	border-radius: 10px;
+	border-color: #E8E0DE;
+	border-style: solid;
+	transition: 0.7s;
+	background-color: #6F5F90;
+	color: #E8E0DE;
+}

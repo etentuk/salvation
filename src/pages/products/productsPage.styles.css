@@ -1,0 +1,107 @@
+.productsPageContainer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.productsImage {
+	width: 40vw;
+	height: 40vh;
+	background-image: url("https://images.unsplash.com/photo-1579306194872-64d3b7bac4c2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+	background-size: cover;
+	border-style: solid;
+	border-color: rebeccapurple;
+	border-width: 3px;
+	margin: 50px;
+	border-radius: 5px;
+	transition: 0.3s;
+}
+
+.productsImage:Hover {
+	border-color: darkgray;
+	transition: 0.3s;
+	border-radius: 15px;
+}
+
+.productsDetails {
+	display: flex;
+	flex-direction: row;
+}
+
+.productsDetails p{
+	font-size: 20px;
+	margin: 15px 0 15px 50px;
+}
+
+.productsDetails input {
+	margin-left: 50px;
+	width: 200px;
+	height: 25px;
+	border-radius: 10px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: rebeccapurple;
+	outline: none;
+	padding-left: 10px;
+}
+
+.productsDetails input:Hover{
+	border-color: darkgray;
+}
+
+.productsDetails button{
+	height: 30px;
+	width: 150px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 50px 0 10px 400px;
+	border-radius: 5px;
+	/*background-color: darkgray;*/
+	transition: 0.4s;
+	outline: none;
+}
+
+.productsDetails button:Hover {
+	color: white;
+	background-color: rebeccapurple;
+	border-radius: 10px;
+	transition: 0.4s;
+}
+
+.detailsAndButton {
+	display: flex;
+	flex-direction: column;
+}
+
+.productPageProductDetails {
+	margin-top: 60px;
+}
+
+.checkOut {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px 60px;
+	margin: 40px 20px;
+	border-radius: 10px;
+	font-size: large;
+	outline: none;
+	border-color: rebeccapurple;
+	border-style: solid;
+	border-width: 3px;
+	transition: all 0.4s ease 0s;
+}
+
+.checkOut:Hover {
+	background: #E8E0DE;
+	border-color: #E8E0DE;
+	letter-spacing: 1px;
+	-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+	transition: all 0.4s ease 0s;
+	border-radius: 16px;
+	color: rebeccapurple;
+}
