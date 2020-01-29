@@ -15,7 +15,7 @@ const HomePage: FC = () => (
 		</div>
 			<CakeInfos />
 			<HomeMadeSweets />
-			<HomePageMenu/>
+			<HomePageMenu />
 			<UniqueCreation />
 			<HomePageAboutUs />
 	</div>
