@@ -11,7 +11,7 @@ const HomePageCookieMenu: FC = () => (
       <p>Exorcizamus te, omnis immundus spiritus, omnis satanica potestas, omnis incursio infernalis adversarii, omnis legio, omnis congregatio et secta diabolica
         Exorcizamus te, omnis immundus spiritus, omnis satanica potestas, omnis incursio infernalis adversarii, omnis legio, omnis congregatio et secta diabolica
       </p>
-      <Link to={"/products"}>Menu</Link>
+      <Link to={"/cakes"}>Menu</Link>
     </div>
 );
 

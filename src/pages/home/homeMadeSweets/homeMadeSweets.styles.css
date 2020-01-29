@@ -11,14 +11,13 @@
 }
 
 .homeMadeSweets h1{
-	font-family: Dancing Script, cursive;
+	font-family: 'Lobster Two', cursive;
 	font-weight: 400;
 	font-size: 100px;
 	color: #f4e000;
 }
 
 .homeMadeSweets h2{
-	font-family: Alice;
 	font-size: 3.9375rem;
 	color: white;
 }

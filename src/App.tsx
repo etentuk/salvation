@@ -58,7 +58,7 @@ const App: FC = () => {
           <Header/>
         <div style={{ flex: 1, flexDirection: 'column'}}>
         <Switch>
-            <Route path="/products" component={ProductsPage} />
+            <Route path="/cakes" component={ProductsPage} />
             <Route path="/contact" component={ContactPage} />
             <Route path="/about" component={AboutPage} />
             <Route path="/login" component={LoginPage} />
@@ -76,26 +76,26 @@ const App: FC = () => {
                     component={CartPage}
                     condition={true}
                     path="/cart"
-                    redirectRoute="/products"
+                    redirectRoute="/cakes"
                   />
                   <ProtectedRoute
                     component={OrderSuccessPage}
                     condition={context.state?.currentOrders?.length}
                     path="/checkout"
-                    redirectRoute="/products"
+                    redirectRoute="/cakes"
                   />
                   <ProtectedRoute
                     component={PaymentPage}
                     condition={true}
                     path="/payment"
-                    redirectRoute="/products"
+                    redirectRoute="/cakes"
                   />
                 </Switch>
                 )}
             </Context.Consumer>
           </Switch>
         </div>
-          <Footer/>
+          {/*<Footer/>*/}
       </Router>
       </div>
     </Context.Provider>

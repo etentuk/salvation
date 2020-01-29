@@ -2,7 +2,7 @@ import React, { FC } from 'react';
 import { withRouter, Link } from 'react-router-dom';
 import NavLink from '../navLink/navLink';
 import './header.styles.css';
-// import img from '/Users/admin/Desktop/salvation updated/src/Images/logo512.png';
+import logo from '../header/tartsByAvi.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
 	faFacebook,
@@ -11,14 +11,14 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 import {faShoppingCart} from '@fortawesome/free-solid-svg-icons';
 
-const routes = ['Home', 'Products', 'About', 'Contact'];
+const routes = ['Home', 'Cakes', 'About', 'Contact'];
 
 const Header: FC<any> = () => {
 	return(
 		<div className={'navBarContainer'}>
-			<div className={'logo'}>
-				{/*<img src={img} alt={'logo'}/>*/}
-			</div>
+			<Link to="/" className={'logo'}>
+				<img src={logo} alt={'logo'}/>
+			</Link>
 			<div className={'routes'}>
 			{routes.map(route => (
 				<NavLink key={route} route={route} />

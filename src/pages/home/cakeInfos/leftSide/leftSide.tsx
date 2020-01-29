@@ -10,7 +10,7 @@ const LeftSideCakeInfo: FC = () => (
     <p>Exorcizamus te, omnis immundus spiritus, omnis satanica potestas, omnis incursio infernalis adversarii, omnis legio, omnis congregatio et secta diabolica
       Exorcizamus te, omnis immundus spiritus, omnis satanica potestas, omnis incursio infernalis adversarii, omnis legio, omnis congregatio et secta diabolica
     </p>
-    <Link to={"/products"}>Order Now</Link>
+    <Link to={"/cakes"}>Order Now</Link>
   </div>
 );
 
